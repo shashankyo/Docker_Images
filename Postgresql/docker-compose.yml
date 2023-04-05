@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  
+  postgres:
+
+    image: postgres:12
+
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+
+      - data:/var/lib/postgressql/data
+
+  pg-admin:
+
+    image: dpage/pgadmin4:6
+
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@gmail.com
+
+      - PGADMIN_DEFAULT_PASSWORD=admin
+
+      - PGADMIN_LISTEN_PORT=5050
+
+    ports:
+    
+      - "5050:5050"
+
+volumes:
+
+  data:
+
