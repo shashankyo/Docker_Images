@@ -37,3 +37,17 @@ docker run [docker image]
 step 4:
 psql -U root -W
 \l
+
+Commands for mongodb database
+
+step 1:
+docker pull mongo:latest
+
+step 2:
+docker run -d -p 27017:27017 --name mymongo mongo:latest
+
+step 3:
+docker exec -it mymongo bash
+
+step 4:
+mongosh
