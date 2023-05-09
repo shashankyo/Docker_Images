@@ -19,3 +19,21 @@ cd docker-entrypoint-init.d
   
 step 5:(Enter password)
 mysql -u root -p
+
+Commands for postgres database:
+
+step 1:
+Build a docker image:
+docker build -t [tag] [dockerfilename to be given]
+
+step 2:
+Create and run docker container
+docker run [docker image]
+
+step 3:
+docker exec -it [docker container] bash
+docker run [docker image]
+
+step 4:
+psql -U root -W
+\l
