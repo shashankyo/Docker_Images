@@ -51,3 +51,6 @@ docker exec -it mymongo bash
 
 step 4:
 mongosh
+ 
+Commands for oracle database
+no docker images found on this
