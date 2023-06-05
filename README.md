@@ -1,6 +1,6 @@
 # Docker_Images
 
-Commands for mysql database:
+Commands to run mysql database:
 
 step 1:
 Build a docker image:
