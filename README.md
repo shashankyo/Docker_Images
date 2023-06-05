@@ -38,7 +38,7 @@ step 4:
 psql -U root -W
 \l
 
-Commands for mongodb database
+Commands for mongodb database:
 
 step 1:
 docker pull mongo:latest
@@ -52,5 +52,5 @@ docker exec -it mymongo bash
 step 4:
 mongosh
  
-Commands for oracle database
+Commands for oracle database:
 no docker images found on this
