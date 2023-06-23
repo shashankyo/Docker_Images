@@ -53,5 +53,5 @@ step 4:
 mongosh
  
 Commands for oracle database:
-no docker images found on this
+No docker images found on this
 All official images of oracle database is removed from the docker hub.
