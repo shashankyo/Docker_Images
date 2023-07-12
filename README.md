@@ -1,6 +1,6 @@
 # Docker_Images
 
-Commands to run mysql database:
+Commands to run Mysql database:
 
 step 1:
 Build a docker image:
@@ -20,7 +20,7 @@ cd docker-entrypoint-init.d
 step 5:(Enter password)
 mysql -u root -p
 
-Commands for postgres database:
+Commands for Postgres database:
 
 step 1:
 Build a docker image:
@@ -38,7 +38,7 @@ step 4:
 psql -U root -W
 \l
 
-Commands for mongodb database:
+Commands for Mongodb database:
 
 step 1:
 docker pull mongo:latest
@@ -52,6 +52,6 @@ docker exec -it mymongo bash
 step 4:
 mongosh
  
-Commands for oracle database:
+Commands for Oracle database:
 No docker images found on this
 All official images of oracle database is removed from the docker hub.
