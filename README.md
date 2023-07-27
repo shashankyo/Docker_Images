@@ -37,7 +37,7 @@ docker run [docker image]
 step 4:
 psql -U root -W
 
-C) Commands for Mongodb database:
+C) Commands for Mongodb database(NoSql database):
 
 step 1:
 docker pull mongo:latest
