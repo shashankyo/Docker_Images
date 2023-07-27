@@ -36,7 +36,6 @@ docker run [docker image]
 
 step 4:
 psql -U root -W
-\l
 
 C) Commands for Mongodb database:
 
