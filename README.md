@@ -4,7 +4,7 @@ A) Commands to run Mysql database:
 
 step 1:
 Build a docker image:
-docker build -t [tag] [dockerfilename to be given]
+docker build -t [tag] [docker filename to be given]
 
 step 2:
 Create and or run Docker container
@@ -24,7 +24,7 @@ B) Commands for Postgresql database:
 
 step 1:
 Build a docker image:
-docker build -t [tag] [dockerfilename to be given]
+docker build -t [tag] [docker filename to be given]
 
 step 2:
 Create and run docker container
