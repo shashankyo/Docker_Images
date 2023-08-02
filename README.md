@@ -37,7 +37,6 @@ docker run [docker image]
 step 4:
 psql -U root -W
 
-
 C) Commands for Mongodb database(NoSql database):
 
 step 1:
@@ -52,7 +51,6 @@ docker exec -it mymongo bash
 step 4:
 mongosh
 
- 
 D) Commands for Oracle database:
 
 No docker images found on this
