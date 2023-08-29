@@ -17,7 +17,7 @@ docker exec -it [docker container] /bin/bash
 step 4:
 cd docker-entrypoint-init.d
   
-step 5:(Enter password)
+step 5: (Enter password)
 mysql -u root -p
 
 B) Commands for Postgresql database:
